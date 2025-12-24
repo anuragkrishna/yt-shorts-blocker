@@ -1,5 +1,7 @@
 # YouTube Shorts Blocker 🚫🎥
 
+### Disclaimer: Only for educational purposes
+
 A lightweight, open-source Chrome Extension designed to help you regain focus by removing YouTube Shorts from your browsing experience.
 
 ## Features
@@ -23,6 +25,7 @@ Since this is an open-source project, you can install it manually on your Mac:
 The extension is now active! Pin it to your toolbar to access the toggle switch.
 
 ## 📂 Project Structure
-manifest.json: Configuration and permissions for Chrome.
-content.js: The "brains" that monitors the page for Shorts elements and handles redirects.
-popup.html / popup.js: The user interface for toggling the blocker on/off.
+
+1. manifest.json: Configuration and permissions for Chrome.
+2. content.js: The "brains" that monitors the page for Shorts elements and handles redirects.
+3. popup.html / popup.js: The user interface for toggling the blocker on/off.
